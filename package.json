@@ -1,0 +1,34 @@
+{
+  "name": "@mtr/aws-apigw-lambda-wrapper",
+  "version": "0.0.1",
+  "description": "wrapper for aws api gateway lambdas",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Upekshe/aws-api-gw-proxy-lambda-wrapper.git"
+  },
+  "keywords": [
+    "aws",
+    "api",
+    "gw",
+    "util",
+    "lambda",
+    "wrapper"
+  ],
+  "author": "upekshejay",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/Upekshe/aws-api-gw-proxy-lambda-wrapper/issues"
+  },
+  "homepage": "https://github.com/Upekshe/aws-api-gw-proxy-lambda-wrapper#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.97",
+    "aws-sdk": "^2.1145.0",
+    "typescript": "^4.7.2"
+  }
+}
