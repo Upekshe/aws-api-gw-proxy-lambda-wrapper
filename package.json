@@ -1,5 +1,5 @@
 {
-  "name": "@mtr/aws-apigw-lambda-wrapper",
+  "name": "@mter/aws-apigw-lambda-wrapper",
   "version": "0.0.1-alpha",
   "description": "wrapper for aws api gateway lambdas",
   "main": "lib/index.js",
