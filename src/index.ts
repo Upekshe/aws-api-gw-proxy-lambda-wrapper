@@ -1,7 +1,6 @@
 import { APIGatewayProxyEvent, APIGatewayProxyResult, Context } from "aws-lambda"
 
 export namespace ApiLambda {
-
     export function wrap<T, U, R>(handler: (input: Input<T, U>) => Promise<R>, options?: Partial<WrapOptions<U>>)
         : (event: APIGatewayProxyEvent, context: Context) => Promise<APIGatewayProxyResult> {
         return async function (event: APIGatewayProxyEvent, context: Context): Promise<APIGatewayProxyResult> {
